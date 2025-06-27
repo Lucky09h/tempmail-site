@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Temp Mail - Free Disposable Email</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Free Temp Mail Generator</h1>
+    <div class="email-box">
+      <input type="text" id="email" readonly value="random123@tempmail.com" />
+      <button onclick="copyEmail()">Copy</button>
+    </div>
+    <p class="note">Use this email anywhere. It auto expires!</p>
+  </div>
+
+  <!-- Ad Script (Add after approval from Monetag/AdSense) -->
+  <!-- <script src="https://your-ads.com/script.js"></script> -->
+
+  <script src="script.js"></script>
+</body>
+</html>
