@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  background: #f0f4f7;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #0077cc;
+}
+
+.email-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+#messages {
+  list-style: none;
+  padding: 0;
+}
+
+#messages li {
+  background: #e9f1fb;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
