@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.email-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#email {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
